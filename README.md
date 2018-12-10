@@ -66,6 +66,6 @@ Do the following only once, for each new plugin that you want to start developin
 
 	- PROJECT, Info, Deployment Target, from 10.14 to 10.9
 	- TARGETS, Build Settings (All | Combined), Linking, Other Linker Flags, `-undefined dynamic_lookup`
-	- Remove from the project `AppDelegate.m` and `AppDelegate.m` and `main.m`
+	- Remove from the project `AppDelegate.m` and `AppDelegate.m` and `main.m` and `index.html`
 
 	Now you should be able to build the plugin and start developing your code.
