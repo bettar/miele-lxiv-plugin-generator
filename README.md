@@ -49,12 +49,12 @@ Do the following only once, for each new plugin that you want to start developin
 
 	- Xcode, File, New, Project...
 	- select macOS and scroll down to the Custom group and select "Miele Plugin", click Next
-	- Type the Product Name (typically ending in `Filter`), the Menu Title, and select the type. Click Next and select the location for your project. Click Create.
+	- Type the Product Name (typically ending in `Filter`), the Menu Title, and select the type. Click Next and select the location for your project. (It's recommended at this point to also select the option to create the git repository.) Click Create.
 
 - Don't start using the newly created Xcode project as yet. Close Xcode.
 - The template is still under development, therefore a few steps are required to fix things up after you have generated the project.
 
-	- Locate your new Xcode project in Finder and open the File `Info.plist` with a text editor. Find and delete the following 3 lines. They appear twice. So in total delete 6 lines, something like line 34..36 and line 38..40
+	- Locate your new Xcode project in Finder and open the File `Info.plist` with a text editor. Find and delete the following 3 lines. They appear twice. So in total delete 6 lines, something like line 38..40 and line 34..36
 
 			<string>BNDL</string>
 			<key>NSPrincipalClass</key>
